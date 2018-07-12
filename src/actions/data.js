@@ -9,6 +9,7 @@ export const loadAll = () => async (dispatch, getState) => {
   dispatch(await loadFile('katakana'));
   dispatch(await loadFile('numbers'));
   dispatch(await loadFile('basic-phrases'));
+  dispatch(await loadFile('aleph-beis'));
 
   const state = getState();
   dispatch(showNewCard(state.data.activeCard));
