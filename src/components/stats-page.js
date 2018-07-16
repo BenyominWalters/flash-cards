@@ -62,7 +62,7 @@ export class StatsPage extends connect(store)(PageViewElement) {
         }
       </style>
 
-      <div class="columns">
+      <div class="columns" dir="rtl">
       ${repeat(Object.keys(_cards), kind =>
         html`
         <div class="column">
