@@ -1,14 +1,14 @@
 [
-  {"en": "קמץ",	"jp":"\u05b8", "say": "komatz"},
-  {"en": "פתח",	"jp":"\u05b7", "say": "patach"},
-  {"en": "צירי",	"jp":"\u05b5", "say": "tzeiri"},
-  {"en": "סגול",	"jp":"\u05b6", "say": "segol"},
-  {"en": "שוא",	"jp":"\u05b0", "say": "shva"},
-  {"en": "חיריק",	"jp":"\u05b4", "say": "chirik"},
-  {"en": "חולם",	"jp":"\ufb4b", "say": "cholom"},
-  {"en": "קובוץ",	"jp":"\u05bb", "say": "kubutz"},
-  {"en": "שורוק",	"jp":"\ufb35", "say": "shuruk"},
-  {"en": "חטף-קמץ",	"jp":"\u05b3", "say": "chataf komatzh"},
-  {"en": "חטף-פתח", "jp":"\u05b2", "say": "chataf patach"},
-  {"en": "חטף-סגול", "jp":"\u05b1", "say": "chataf segol"}
+  {"en": "komatz",	"jp":"\u05b8", "say": "komatz"},
+  {"en": "patach",	"jp":"\u05b7", "say": "patach"},
+  {"en": "tzeiri",	"jp":"\u05b5", "say": "tzeiri"},
+  {"en": "segol",	"jp":"\u05b6", "say": "segol"},
+  {"en": "shva",	"jp":"\u05b0", "say": "shva"},
+  {"en": "chirik",	"jp":"\u05b4", "say": "chirik"},
+  {"en": "cholom",	"jp":"\ufb4b", "say": "cholom"},
+  {"en": "kubutz",	"jp":"\u05bb", "say": "kubutz"},
+  {"en": "shuruk",	"jp":"\ufb35", "say": "shuruk"},
+  {"en": "chataf komatz",	"jp":"\u05b3", "say": "chataf komatz"},
+  {"en": "chataf patach", "jp":"\u05b2", "say": "chataf patach"},
+  {"en": "chataf segol", "jp":"\u05b1", "say": "chataf segol"}
 ]
