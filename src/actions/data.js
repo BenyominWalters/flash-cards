@@ -5,7 +5,7 @@ export const GET_WRONG = 'GET_WRONG';
 export const SAVE_CHOICES = 'SAVE_CHOICES';
 
 export const loadAll = () => async (dispatch, getState) => {
-  dispatch(await loadFile('hiragana'));
+  dispatch(await loadFile('aleph-beis'));
   dispatch(await loadFile('katakana'));
   dispatch(await loadFile('numbers'));
   dispatch(await loadFile('basic-phrases'));
@@ -59,7 +59,7 @@ export const saveAvailableTypes = (categories) => (dispatch, getState) => {
 function getNewCard(state) {
   const cards = state.data.cards;
 
-  // What kind of categories we can pick from (i.e. hiragana or katakana etc).
+  // What kind of categories we can pick from (i.e. aleph-beis or katakana etc).
   let categories = (state.data.categories && state.data.categories.length !== 0)
       ? state.data.categories : Object.keys(cards);
   let showSettings = state.app.showSettings;  // all, onlyNew, mostlyRight, mostlyWrong.

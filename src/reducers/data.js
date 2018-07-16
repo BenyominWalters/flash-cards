@@ -18,7 +18,7 @@ const app = (state = {cards:{}, stats:{}, categories:[]}, action) => {
     case SHOW_CARD:
       let activeCard;
       if (window.location.hash === '#test') {
-        activeCard = {category: 'hiragana', index: 0};
+        activeCard = {category: 'aleph-beis', index: 0};
       } else {
         activeCard = action.card;  // {category, index}
       }
@@ -48,7 +48,7 @@ const app = (state = {cards:{}, stats:{}, categories:[]}, action) => {
 
 /*
 * Sample stats obj:
-* stats = { 'hiragana': { 1:{right:2,wrong:7}, 5:{right:1} }, 'katakana': {} }
+* stats = { 'aleph-beis': { 1:{right:2,wrong:7}, 5:{right:1} }, 'katakana': {} }
 */
 const stats = (state = {}, action) => {
   switch (action.type) {
