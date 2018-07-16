@@ -62,7 +62,7 @@ export class StatsPage extends connect(store)(PageViewElement) {
         }
       </style>
 
-      <div class="columns" dir="rtl">
+      <div class="columns" dir="rtl"> <!-- This sets the direction of settings page to right-to-left. -->
       ${repeat(Object.keys(_cards), kind =>
         html`
         <div class="column">
