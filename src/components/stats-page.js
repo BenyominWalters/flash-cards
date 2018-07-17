@@ -50,10 +50,12 @@ export class StatsPage extends connect(store)(PageViewElement) {
         .jp {
           font-size: 20px;
           font-weight: bold;
+          padding-bottom: 2px;
         }
         .en {
           font-size: 12px;
           font-weight: normal;
+          padding-top: 0px;
         }
         .ellipsis {
           white-space: nowrap;
