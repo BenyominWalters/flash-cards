@@ -77,10 +77,14 @@
     <!-- Add any global styles for body, document, etc. -->
     <style>
       @font-face {
-        font-family: 'Pacifico';
+        font-family: 'Vilna';
         font-style: normal;
         font-weight: 400;
-        src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+        src: url('fonts/Vilna-Regular.eot');
+        src: 
+          url('fonts/Vilna-Regular.woff') format('woff2'),
+          url('fonts/Vilna-Regular.otf') format('opentype')
+          url('fonts/Vilna-Regular.svg#filename') format('svg');
       }
       body {
         margin: 0;
@@ -100,7 +104,7 @@
     </style>
   </head>
   <body>
-    <my-app appTitle="Learn Aleph Beis"></my-app>
+    <my-app appTitle="Learn Aleph Beis!"></my-app> <!-- This is the title that appears at the top of the App Page. -->
     <noscript>
       Please enable JavaScript to view this website.
     </noscript>

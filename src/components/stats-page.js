@@ -50,6 +50,7 @@ export class StatsPage extends connect(store)(PageViewElement) {
         .jp {
           font-size: 20px;
           font-weight: bold;
+          font-family: 'Vilna';
           padding-bottom: 2px;
         }
         .en {

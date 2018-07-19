@@ -26,7 +26,7 @@ class ACard extends LitElement {
        .question {
          font-size: 4.5em;
          font-weight: bold;
-         xfont-family: "Noto Sans Japanese";
+         font-family: "Vilna";
        }
        .category {
          font-size: 1em;
@@ -81,12 +81,14 @@ class ACard extends LitElement {
        }
      </style>
 
+     
      <button class="say floating-btn"
         title="say question"
         hidden?="${!props._hasSpeechSynthesis}"
         on-click="${() => this._say()}">
         ${audioIcon}
      </button>
+     
 
      <div class="question">${props.question}</div>
 

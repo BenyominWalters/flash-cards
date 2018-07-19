@@ -7,8 +7,9 @@ export const SAVE_CHOICES = 'SAVE_CHOICES';
 export const loadAll = () => async (dispatch, getState) => {
   dispatch(await loadFile('aleph-beis'));
  // dispatch(await loadFile('katakana'));
-  dispatch(await loadFile('nekudos'));
+ // dispatch(await loadFile('nekudos'));
  // dispatch(await loadFile('basic-phrases'));
+ dispatch(await loadFile('bereishis-words.json'));
 
   const state = getState();
   dispatch(showNewCard(state.data.activeCard));

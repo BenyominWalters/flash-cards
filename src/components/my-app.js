@@ -59,8 +59,7 @@ class MyApp extends connect(store)(LitElement) {
       }
 
       [main-title] {
-        font-family: 'Pacifico';
-        text-transform: lowercase;
+        font-family: 'Vilna';
         font-size: 30px;
         text-align: left;
       }
