@@ -7,7 +7,7 @@ export const SAVE_CHOICES = 'SAVE_CHOICES';
 export const loadAll = () => async (dispatch, getState) => {
   dispatch(await loadFile('aleph-beis'));
  // dispatch(await loadFile('katakana'));
- // dispatch(await loadFile('nekudos'));
+ dispatch(await loadFile('nekudos'));
  // dispatch(await loadFile('basic-phrases'));
  dispatch(await loadFile('bereishis-words.json'));
 
@@ -107,11 +107,11 @@ function pickCardFromCategories(cards, stats, categories, showSettings) {
 
   let filteredCards;
   if (showSettings === 'onlyNew') {
-    filteredCards = cardsForCategory.filter(card => statsForCategory[card.jp] === undefined);
+    filteredCards = cardsForCategory.filter(card => statsForCategory[card.he] === undefined);
   } else if (showSettings === 'mostlyRight') {
-    filteredCards = cardsForCategory.filter(card => statsForCategory[card.jp] && statsForCategory[card.jp].right > statsForCategory[card.jp].wrong);
+    filteredCards = cardsForCategory.filter(card => statsForCategory[card.he] && statsForCategory[card.he].right > statsForCategory[card.he].wrong);
   } else if (showSettings === 'mostlyWrong') {
-    filteredCards = cardsForCategory.filter(card => statsForCategory[card.jp] && statsForCategory[card.jp].right < statsForCategory[card.jp].wrong);
+    filteredCards = cardsForCategory.filter(card => statsForCategory[card.he] && statsForCategory[card.he].right < statsForCategory[card.he].wrong);
   } else {
     // This includes 'all' or like, invalid settings.
     filteredCards = cardsForCategory;

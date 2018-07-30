@@ -164,10 +164,11 @@ class ACard extends LitElement {
     this._hasSpeechSynthesis = true;
 
     // In Chrome?
-    let voice = speechSynthesis.getVoices().filter((voice) => voice.name === 'Google 日本語')[0];
+    let voice = speechSynthesis.getVoices().filter((voice) => voice.name === 'Google US English')[0];
+    console.log(voice);
     if (voice) return voice;
     // On a Mac?
-    voice = speechSynthesis.getVoices().filter((voice) => voice.name === 'Kyoko')[0];
+    voice = speechSynthesis.getVoices().filter((voice) => voice.name === 'Vicki')[0];
     if (voice) return voice;
 
     // I can't find a voice that reads Japanese on Windows
@@ -202,7 +203,7 @@ class ACard extends LitElement {
     }
     var msg = new SpeechSynthesisUtterance();
     msg.text = this.question;
-    msg.lang = 'jp';
+    msg.lang = 'en';
     msg.voice = this._voice;
     window.speechSynthesis.speak(msg);
   }

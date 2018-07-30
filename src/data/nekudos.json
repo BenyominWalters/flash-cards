@@ -1,14 +1,14 @@
 [
-  {"en": "kamatz",	"jp":"\u05b8", "say": "kamatz"},
-  {"en": "patach",	"jp":"\u05b7", "say": "patach"},
-  {"en": "tzeirei",	"jp":"\u05b5", "say": "tzeirei"},
-  {"en": "segol",	"jp":"\u05b6", "say": "segol"},
-  {"en": "sheva",	"jp":"\u05b0", "say": "sheva"},
-  {"en": "chirik",	"jp":"\u05b4", "say": "chirik"},
-  {"en": "cholam",	"jp":"\ufb4b", "say": "cholam"},
-  {"en": "kubutz",	"jp":"\u05bb", "say": "kubutz"},
-  {"en": "shuruk",	"jp":"\ufb35", "say": "shuruk"},
-  {"en": "chataf kamatz",	"jp":"\u05b3", "say": "chataf komatz"},
-  {"en": "chataf patach", "jp":"\u05b2", "say": "chataf patach"},
-  {"en": "chataf segol", "jp":"\u05b1", "say": "chataf segol"}
+  {"en": "kamatz",	"he":"\u05b8", "say": "kamatz"},
+  {"en": "patach",	"he":"\u05b7", "say": "patach"},
+  {"en": "tzeirei",	"he":"\u05b5", "say": "tzeirei"},
+  {"en": "segol",	"he":"\u05b6", "say": "segol"},
+  {"en": "sheva",	"he":"\u05b0", "say": "sheva"},
+  {"en": "chirik",	"he":"\u05b4", "say": "chirik"},
+  {"en": "cholam",	"he":"\ufb4b", "say": "cholam"},
+  {"en": "kubutz",	"he":"\u05bb", "say": "kubutz"},
+  {"en": "shuruk",	"he":"\ufb35", "say": "shuruk"},
+  {"en": "chataf kamatz",	"he":"\u05b3", "say": "chataf komatz"},
+  {"en": "chataf patach", "he":"\u05b2", "say": "chataf patach"},
+  {"en": "chataf segol", "he":"\u05b1", "say": "chataf segol"}
 ]

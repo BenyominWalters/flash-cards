@@ -3,7 +3,7 @@
       "en":[
          "good morning"
       ],
-      "jp":"おはようございます",
+      "he":"おはようございます",
       "say":"ohayou gozaimasu"
    },
    {
@@ -11,7 +11,7 @@
          "hello",
          "hi"
       ],
-      "jp":"こんにちは",
+      "he":"こんにちは",
       "say":"konnichiwa"
    },
    {
@@ -19,7 +19,7 @@
          "goodbye",
          "good bye"
       ],
-      "jp":"さようなら",
+      "he":"さようなら",
       "say":"sayonara"
    },
    {
@@ -28,7 +28,7 @@
          "i'm fine",
          "i am fine"
       ],
-      "jp":"お元気で",
+      "he":"お元気で",
       "say":"o genki de"
    },
    {
@@ -36,28 +36,28 @@
          "what is your name",
          "what's your name"
       ],
-      "jp":"お名前は何ですか？",
+      "he":"お名前は何ですか？",
       "say":"o namae wa nan desu ka"
    },
    {
       "en":[
          "i like it"
       ],
-      "jp":"好きです",
+      "he":"好きです",
       "say":"suki desu"
    },
    {
       "en":[
          "it's good"
       ],
-      "jp":"いいですよ",
+      "he":"いいですよ",
       "say":"ii desu yo"
    },
    {
       "en":[
          "it's not good"
       ],
-      "jp":"ダメです",
+      "he":"ダメです",
       "say":"dame desu"
    },
    {
@@ -65,7 +65,7 @@
          "thank you",
          "thank you very much"
       ],
-      "jp":"ありがとうございます",
+      "he":"ありがとうございます",
       "say":"arigatou gozaimasu"
    },
    {
@@ -73,14 +73,14 @@
          "you're welcome",
          "you are welcome"
       ],
-      "jp":"どういたしまして",
+      "he":"どういたしまして",
       "say":"douitashimashite"
    },
    {
       "en":[
          "please"
       ],
-      "jp":"ください",
+      "he":"ください",
       "say":"kudasai"
    },
    {
@@ -88,7 +88,7 @@
          "excuse me",
          "sorry"
       ],
-      "jp":"すみません",
+      "he":"すみません",
       "say":"sumimasen"
    },
    {
@@ -97,7 +97,7 @@
          "sorry",
          "i am sorry"
       ],
-      "jp":"ごめんなさい",
+      "he":"ごめんなさい",
       "say":"gomen nasai"
    }
 ]

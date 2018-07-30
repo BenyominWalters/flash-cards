@@ -108,7 +108,7 @@ export const cardSelector = createSelector(
     const activeCardData = cards[activeCard.category][activeCard.index];
 
     return {
-      question: activeCardData.jp,
+      question: activeCardData.he,
       answers: [].concat(activeCardData.en),
       category: activeCard.category,
       mnemonic: activeCardData.mnemonic

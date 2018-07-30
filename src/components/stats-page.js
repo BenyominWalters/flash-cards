@@ -47,7 +47,7 @@ export class StatsPage extends connect(store)(PageViewElement) {
           display: inline-block;
           border-radius: 1.5px;
         }
-        .jp {
+        .he {
           font-size: 20px;
           font-weight: bold;
           font-family: 'Vilna';
@@ -72,8 +72,8 @@ export class StatsPage extends connect(store)(PageViewElement) {
           <h3>${kind}</h3>
           <div class="list">
             ${repeat(Object.keys(_cards[kind]), entry => html`
-              <div style$="${this._getColor(kind, _cards[kind][entry].jp, _stats)}">
-                <div class="jp ellipsis" title="${_cards[kind][entry].jp}">${_cards[kind][entry].jp}</div>
+              <div style$="${this._getColor(kind, _cards[kind][entry].he, _stats)}">
+                <div class="he ellipsis" title="${_cards[kind][entry].he}">${_cards[kind][entry].he}</div>
                 <div class="en ellipsis" title="${_cards[kind][entry].en}">${_cards[kind][entry].en}</div>
               </div>
             `)}
@@ -94,12 +94,12 @@ export class StatsPage extends connect(store)(PageViewElement) {
     this._stats = state.data.stats;
   }
 
-  _getColor(kind, jp, stats) {
+  _getColor(kind, he, stats) {
     const backgroundNone = 'background: rgba(255,255,255,0.6)';
     if (!stats) {
       return backgroundNone;
     }
-    const entry = stats[kind] ? stats[kind][jp] : null;
+    const entry = stats[kind] ? stats[kind][he] : null;
     if (!entry) {
       return backgroundNone;
     }
